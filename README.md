@@ -1,23 +1,23 @@
-# Salary
-# Salary Prediction Project
+💰 Maaş Tahmin Modeli
+Proje Açıklaması
+Bu Streamlit uygulaması, çalışma deneyiminize dayalı olarak tahmini maaşınızı hesaplayan bir makine öğrenmesi modelidir.
+Özellikler
 
-## 📖 Proje Açıklaması
-Bu proje, çalışanların maaşlarını tahmin etmek amacıyla geliştirilmiştir. Veri seti, çalışanın deneyim yılına dayalı olarak maaş tahminlerini gerçekleştirmek için kullanılmaktadır.
+Polinom Regresyon algoritması kullanılır
+R2 Skoru: 0.918
+Kullanıcı dostu arayüz
+Çalışma deneyim yılına göre maaş tahmini
 
-## 🔗 Veri Kümesi
-Veriler, aşağıdaki kaynaklardan elde edilmiştir:
-- Kaggle'daki [Salary Dataset](https://www.kaggle.com/datasets/rsadiq/salary/data)
-- Hugging Face üzerindeki [Salary Predict Space](https://huggingface.co/spaces/btulftma/salarypredict)
+Kullanım
 
-## 🛠️ Kullanılan Kütüphaneler
-- `pandas`: Veri analizi ve manipülasyonu için.
-- `numpy`: Sayısal işlemler için.
-- `matplotlib` ve `seaborn`: Verilerin görselleştirilmesi için.
-- `sklearn`: Model değerlendirme ve metrikler için.
-- `xgboost`: Makine öğrenimi modeli için.
+Yan kaydırıcıyı kullanarak deneyim yılınızı seçin
+"Maaş Tahminini Hesapla" butonuna tıklayın
+Tahmini maaşınızı görüntüleyin
 
-## 📊 Model Eğitimi ve Değerlendirme
-Proje, farklı regresyon modelleri kullanarak maaş tahmini yapmaktadır. Model performansı R², MAE ve RMSE gibi metriklerle değerlendirilmiştir.
+Model Performansı
 
-## 📈 Sonuçlar
-Proje sonucunda elde edilen en iyi model, deneyim yılına göre maaş tahminlerini gerçekleştirmektedir.
+Ortalama Mutlak Hata: 5,879 TL
+Model Tipi: Polinom Regresyon (Derece 2)
+
+Not
+Bu tahmin istatistiksel bir tahmindir. Gerçek maaş, şirket, sektör ve bireysel performansa göre değişebilir.
